@@ -1,6 +1,41 @@
 <mjml>
   <mj-head>
     <mj-preview>Selected Projects</mj-preview>
+    <mj-style>
+      .position-relative {
+        position: relative;
+      }
+
+      .villa-design {
+        display: none;
+      }
+
+      @media (min-width:300px) {
+        .villa-design {
+          display: block;
+          position: absolute;
+          top: 30%;
+          left: 40%;
+          width: 50%;
+        }
+      }
+
+      @media (min-width:480px) {
+        .villa-design {
+          display: block;
+          position: absolute;
+          top: 10%;
+          left: 25%;
+          width: 65%;
+        }
+      }
+    </mj-style>
+    <mj-style>
+      .red-text div {
+        color: red !important;
+        text-decoration: underline !important;
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-section padding="0">
@@ -13,21 +48,46 @@
         <mj-text font-weight="600" font-size="24px" color="#000" align="center">
           NEW COMPETITION ALERT!
         </mj-text>
-        <mj-text padding-left="5px" line-height="18px">
+        <mj-text line-height="18px">
           We are happy to announce that we have a new competition! You can see the details below and register now. Don't forget, the more project uploads, the more chance of winning.
         </mj-text>
       </mj-column>
     </mj-section>
 
     <!-- Competition -->
-    <mj-section>
-      <mj-column width="100%" padding="0">
-        <mj-image padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/competition-annoucement.png" alt="Competition Announcement" />
-      </mj-column>
-      <mj-column width="100%" padding="0">
-        <mj-button background-color="#dedede" width="100%" padding-top="5px" padding-right="0" padding-left="5px" border-radius="0" color="#000" font-weight="bold">
+    <mj-section padding="4px">
+      <mj-column css-class="position-relative" width="100%" padding="0" background-color="#fa8d29">
+        <mj-text>
+          INTERNATIONAL ARCHITECTURE COMPETITION
+        </mj-text>
+        <mj-text font-size="24px" padding-bottom="0">
+          VILLA DESIGN
+        </mj-text>
+        <mj-text font-size="18px" padding-top="0">
+          COMPETITION
+        </mj-text>
+        <mj-text padding-bottom="3px">
+          PRIZE FUND
+        </mj-text>
+        <mj-text font-size="18px" padding-top="0" padding-bottom="3px">
+          1st US $1,000
+        </mj-text>
+        <mj-text font-size="18px" padding-top="0" padding-bottom="3px">
+          2nd US $500
+        </mj-text>
+        <mj-text font-size="18px" padding-top="0">
+          3rd US $300
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0">
+          SUBMISSION DEADLINE
+        </mj-text>
+        <mj-text font-size="18px" padding-top="0">
+          30 May, 2020
+        </mj-text>
+        <mj-button background-color="#dedede" color="#000" border="solid thin #000" border-radius="0" align="left">
           REGISTER NOW
         </mj-button>
+        <mj-image css-class="position-absolute villa-design" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="" />
       </mj-column>
     </mj-section>
 

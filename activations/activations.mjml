@@ -1,9 +1,38 @@
 <mjml>
   <mj-head>
     <mj-preview>Activation</mj-preview>
+    <mj-style>
+      .position-relative {
+        position: relative;
+      }
+
+      .villa-design {
+        display: none;
+      }
+
+      @media (min-width:300px) {
+        .villa-design {
+          display: block;
+          position: absolute;
+          bottom: 20%;
+          left: 35%;
+          width: 60%;
+        }
+      }
+
+      @media (min-width:480px) {
+        .villa-design {
+          display: block;
+          position: absolute;
+          top: 0%;
+          left: 35%;
+          width: 55%;
+        }
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#ffffff">
-    <mj-section padding="0">
+    <mj-section>
       <mj-column>
         <mj-image width="250px" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/LOGO3_1.png"></mj-image>
       </mj-column>
@@ -18,42 +47,64 @@
         </mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-button width="100%" border-radius="0" padding="0" background-color="#fa8d29" color="#000" font-weight="bold"> ACTIVATE MY ACCOUNT </mj-button>
+        <mj-button width="100%" border-radius="0" background-color="#fa8d29" color="#000" font-weight="bold"> ACTIVATE MY ACCOUNT </mj-button>
       </mj-column>
       <mj-column width="100%">
         <mj-text> If it does not work, you can simply copy the link below and paste it to your browser’s address bar </mj-text>
         <mj-text color="#fa8d29"> <a href="#" style="color:#fa8d29;">https://architectstock.com/activate/username</a> </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fa8d29" border="5px #fff solid" padding="10px">
-      <mj-column width="33%">
-        <mj-text font-size="10px" padding="0"> INTERNATIONAL ARCHITECTURE COMPETITION </mj-text>
-        <mj-text padding="5px 0"> <span style="font-weight:600">VILLA DESIGN</span><br /> <span>COMPETITION</span> </mj-text>
-        <mj-text padding="5px 0"> <span>SUBMISSION DEADLINE</span><br> <span style="font-weight:600">30 May, 2020</span> </mj-text>
-      </mj-column>
-      <mj-column width="33%">
-        <mj-text font-size="8px" padding="0"> PRIZE FUND </mj-text>
-        <mj-text padding="3px 0"> <strong>1st</strong> US $1,000 </mj-text>
-        <mj-text padding="3px 0"> <strong>2nd</strong> US $5000 </mj-text>
-        <mj-text padding="3px 0"> <strong>3rs</strong> US $300 </mj-text>
-        <mj-button padding="5px 0" align="left" inner-padding="7px" background-color="#dedede" border-radius="0" border="solid thin #000" color="#000"> REGISTER NOW </mj-button>
-      </mj-column>
-      <mj-column width="34%">
-        <mj-image padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
-      </mj-column>
-    </mj-section>
-    <mj-section>
-      <mj-column background-color="#000">
-        <mj-text align="center" font-size="24px" font-weight="bold" color="#fff" container-background-color="#000"> FOLLOW US </mj-text>
-        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-          <mj-social-element name="facebook" href="https://mjml.io/"> </mj-social-element>
-          <mj-social-element name="youtube" href="https://mjml.io/"> </mj-social-element>
-          <mj-social-element name="twitter" href="https://mjml.io/"> </mj-social-element>
-          <mj-social-element name="instagram" href="https://mjml.io/"> </mj-social-element>
-          <mj-social-element name="linkedin" href="https://mjml.io/"> </mj-social-element>
-          <mj-social-element name="pinterest" href="https://mjml.io/"> </mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
+
+    <mj-wrapper padding="25px" padding-top="0">
+      <mj-section background-color="#fa8d29" padding="10px">
+        <mj-column width="40%">
+          <mj-text font-size="10px" padding="0">
+            INTERNATIONAL ARCHITECTURE COMPETITION
+          </mj-text>
+          <mj-text padding="5px 0">
+            <span style="font-weight:600"> VILLA DESIGN</span><br />
+            <span>COMPETITION</span>
+          </mj-text>
+          <mj-text padding="5px 0">
+            <span>SUBMISSION DEADLINE</span><br>
+            <span style="font-weight:600">30 May, 2020</span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%" css-class="position-relative">
+          <mj-text font-size="8px" padding="0">
+            <span style="font-size:24px">&#127941;</span> PRIZE FUND
+          </mj-text>
+          <mj-text padding="3px 0">
+            <strong>1st</strong> US $1,000
+          </mj-text>
+          <mj-text padding="3px 0">
+            <strong>2nd</strong> US $500
+          </mj-text>
+          <mj-text padding="3px 0">
+            <strong>3rs</strong> US $300
+          </mj-text>
+          <mj-button padding="5px 0" align="left" inner-padding="7px" background-color="#dedede" border-radius="0" border="solid thin #000" color="#000">
+            REGISTER NOW
+          </mj-button>
+          <mj-image padding="0" css-class="villa-design" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="25px" padding-top="0">
+      <mj-section>
+        <mj-column background-color="#000">
+          <mj-text align="center" font-size="24px" font-weight="bold" color="#fff" container-background-color="#000"> FOLLOW US </mj-text>
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+            <mj-social-element name="facebook" href="https://mjml.io/"> </mj-social-element>
+            <mj-social-element name="youtube" href="https://mjml.io/"> </mj-social-element>
+            <mj-social-element name="twitter" href="https://mjml.io/"> </mj-social-element>
+            <mj-social-element name="instagram" href="https://mjml.io/"> </mj-social-element>
+            <mj-social-element name="linkedin" href="https://mjml.io/"> </mj-social-element>
+            <mj-social-element name="pinterest" href="https://mjml.io/"> </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

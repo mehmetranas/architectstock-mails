@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-preview>Approved Profile</mj-preview>
+    <mj-preview>Selected Projects</mj-preview>
     <mj-style>
       .position-relative {
         position: relative;
@@ -32,267 +32,259 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#ffffff">
-    <mj-section padding-bottom="0">
+    <mj-section padding="0">
       <mj-column>
         <mj-image width="250px" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/LOGO3_1.png"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="0">
-      <mj-column>
-        <mj-text font-weight="600" color="#fa8d29">
-          Hi Mehmet,
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <mj-text font-weight="600" font-size="24px" color="#000" align="center">
+          DID YOU SEE OUR SPECIAL OFFER?
         </mj-text>
         <mj-text line-height="18px">
-          Great news! Your profile has been approved. Now you can access to Architectstock projects archive, start selling and also apply competitions.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding-bottom="0">
-    </mj-section>
-    <mj-section padding="25px" padding-top="0" padding-bottom="0">
-      <mj-column background-color="#000000">
-        <mj-text align="center" font-weight="bold" color="#fa8d29" font-size="20px">
-          WEEKLY SELECTED PROJECTS
+          We have a special offer for you! Now you can buy houndreds of projects with <strong style="color:#fa8d29">%20</strong> discount. Do not miss
+          that limited time opportunity.
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-wrapper padding="23px" padding-top="0">
-      <!-- Images -->
-      <mj-section padding-top="0" padding-bottom="0">
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            <span>IZ TOWER</span>
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-top="0" padding-bottom="0">
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            <span>IZ TOWER</span>
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-top="0" padding-bottom="0">
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            <span>IZ TOWER</span>
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-top="0" padding-bottom="0">
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            <span>IZ TOWER</span>
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding="2px">
-          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
-          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
-            IZ TOWER
-            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
-          </mj-text>
-          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
-            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
-            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
-            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-
-    <mj-section padding="25px" padding-top="0" padding-bottom="10px">
-      <mj-column width="100%">
-        <mj-text align="center" font-weight="600" color="#fff" container-background-color="#000">
-          SEE ALL PROJECTS
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-wrapper padding="25px" padding-top="0">
-      <mj-section background-color="#fa8d29" padding="10px">
-        <mj-column width="40%">
-          <mj-text font-size="10px" padding="0">
-            INTERNATIONAL ARCHITECTURE COMPETITION
-          </mj-text>
-          <mj-text padding="5px 0">
-            <span style="font-weight:600"> VILLA DESIGN</span><br />
-            <span>COMPETITION</span>
-          </mj-text>
-          <mj-text padding="5px 0">
-            <span>SUBMISSION DEADLINE</span><br>
-            <span style="font-weight:600">30 May, 2020</span>
-          </mj-text>
-        </mj-column>
-        <mj-column width="60%" css-class="position-relative">
-          <mj-text font-size="8px" padding="0">
-            <span style="font-size:24px">&#127941;</span> PRIZE FUND
-          </mj-text>
-          <mj-text padding="3px 0">
-            <strong>1st</strong> US $1,000
-          </mj-text>
-          <mj-text padding="3px 0">
-            <strong>2nd</strong> US $500
-          </mj-text>
-          <mj-text padding="3px 0">
-            <strong>3rs</strong> US $300
-          </mj-text>
-          <mj-button padding="5px 0" align="left" inner-padding="7px" background-color="#dedede" border-radius="0" border="solid thin #000" color="#000">
-            REGISTER NOW
-          </mj-button>
-          <mj-image padding="0" css-class="villa-design" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
-        </mj-column>
-      </mj-section>
+    <mj-wrapper padding="20px" padding-top="0">
       <mj-section padding-bottom="0">
-
+        <mj-column width="100%">
+          <mj-text align="center" font-weight="600" font-size="24px" color="#fa8d29" container-background-color="#000">
+            DISCOUNTED PROJECTS
+          </mj-text>
+        </mj-column>
       </mj-section>
-      <mj-section padding="4px" background-color="#000">
+      <mj-section padding="2px 0">
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            <span>IZ TOWER</span>
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="2px 0">
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            <span>IZ TOWER</span>
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="2px 0">
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            <span>IZ TOWER</span>
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="2px 0">
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            <span>IZ TOWER</span>
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="2px">
+          <mj-image fluid-on-mobile="true" padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/9.jpg" alt="Iz Tower" />
+          <mj-text font-weight="600" padding-left="10px" container-background-color="#000" color="#ffffff">
+            IZ TOWER
+            <span style="background-color:#fa8d29; float:right; font-size:10px; padding:2px; color:#000">HOUSING</span>
+          </mj-text>
+          <mj-text padding="2px" font-size="10px" container-background-color="#fa8d29" color="#000">
+            <span style="margin: 0 .1em 0 0">CAD: <strong>.dwg</strong></span>
+            <span style="margin: 0 .1em 0 .1em">3D: <strong>.max</strong></span>
+            <span style="margin: 0 0 .1em 0">RENDERS: <strong>.jpg</strong></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="4px">
         <mj-column width="100%">
           <mj-text align="center" font-weight="600" color="#fff" container-background-color="#000">
-            HELP CENTER
+            SEE ALL PROJECTS
           </mj-text>
         </mj-column>
-        <mj-column width="100%">
-          <mj-button color="#000" background-color="#fa8d29" border-radius="0">
-            BECOME AN ARCHITECTSTOCK MEMBER
-          </mj-button>
-        </mj-column>
-        <mj-column width="100%">
-          <mj-text color="#fff" align="center">
-            You have received this email, because you subscribed to Architectstock.
-          </mj-text>
-          <mj-text color="#fff" align="center" padding-top="0">
-            Don't want to hear from us? You can <a href="#" style="color:#fa8d29">unsubscribe</a>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column background-color="#fa8d29">
-          <mj-text align="center" font-size="24px" font-weight="bold" color="#000"> FOLLOW US </mj-text>
-          <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-            <mj-social-element name="facebook" href="https://mjml.io/"> </mj-social-element>
-            <mj-social-element name="youtube" href="https://mjml.io/"> </mj-social-element>
-            <mj-social-element name="twitter" href="https://mjml.io/"> </mj-social-element>
-            <mj-social-element name="instagram" href="https://mjml.io/"> </mj-social-element>
-            <mj-social-element name="linkedin" href="https://mjml.io/"> </mj-social-element>
-            <mj-social-element name="pinterest" href="https://mjml.io/"> </mj-social-element>
-          </mj-social>
-        </mj-column>
-      </mj-section>
     </mj-wrapper>
 
+    </mj-section>
+    <mj-section background-color="#fa8d29" padding="10px" border="4px solid #fff">
+      <mj-column width="40%">
+        <mj-text font-size="10px" padding="0">
+          INTERNATIONAL ARCHITECTURE COMPETITION
+        </mj-text>
+        <mj-text padding="5px 0">
+          <span style="font-weight:600"> VILLA DESIGN</span><br />
+          <span>COMPETITION</span>
+        </mj-text>
+        <mj-text padding="5px 0">
+          <span>SUBMISSION DEADLINE</span><br>
+          <span style="font-weight:600">30 May, 2020</span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="60%" css-class="position-relative">
+        <mj-text font-size="8px" padding="0">
+          <span style="font-size:24px">&#127941;</span> PRIZE FUND
+        </mj-text>
+        <mj-text padding="3px 0">
+          <strong>1st</strong> US $1,000
+        </mj-text>
+        <mj-text padding="3px 0">
+          <strong>2nd</strong> US $500
+        </mj-text>
+        <mj-text padding="3px 0">
+          <strong>3rs</strong> US $300
+        </mj-text>
+        <mj-button padding="5px 0" align="left" inner-padding="7px" background-color="#dedede" border-radius="0" border="solid thin #000" color="#000">
+          REGISTER NOW
+        </mj-button>
+        <mj-image padding="0" css-class="villa-design" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
+      </mj-column>
+    </mj-section>
 
+    <mj-section padding="4px" background-color="#000" border="5px solid #fff">
+      <mj-column width="100%">
+        <mj-text align="center" font-weight="600" color="#fff" container-background-color="#000">
+          HELP CENTER
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-button color="#000" background-color="#fa8d29" border-radius="0">
+          BECOME AN ARCHITECTSTOCK MEMBER
+        </mj-button>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text color="#fff" align="center">
+          You have received this email, because you subscribed to Architectstock.
+        </mj-text>
+        <mj-text color="#fff" align="center" padding-top="0">
+          Don't want to hear from us? You can <a href="#" style="color:#fa8d29">unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column background-color="#fa8d29">
+        <mj-text align="center" font-size="24px" font-weight="bold" color="#000"> FOLLOW US </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="youtube" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="twitter" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="instagram" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="linkedin" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="pinterest" href="https://mjml.io/"> </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>

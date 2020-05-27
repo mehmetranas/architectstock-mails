@@ -1,0 +1,68 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Selected Projects</mj-preview>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image width="250px" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/LOGO3_1.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <mj-text font-weight="600" font-size="24px" color="#000" align="center">
+          NEW COMPETITION ALERT!
+        </mj-text>
+        <mj-text padding-left="5px" line-height="18px">
+          We are happy to announce that we have a new competition! You can see the details below and register now. Don't forget, the more project uploads, the more chance of winning.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Competition -->
+    <mj-section>
+      <mj-column width="100%" padding="0">
+        <mj-image padding="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/competition-annoucement.png" alt="Competition Announcement" />
+      </mj-column>
+      <mj-column width="100%" padding="0">
+        <mj-button background-color="#dedede" width="100%" padding-top="5px" padding-right="0" padding-left="5px" border-radius="0" color="#000" font-weight="bold">
+          REGISTER NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="4px" background-color="#000" border="5px solid #fff">
+      <mj-column width="100%">
+        <mj-text align="center" font-weight="600" color="#fff" container-background-color="#000">
+          HELP CENTER
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-button color="#000" width="50%" background-color="#fa8d29" border-radius="0">
+          ADD PROJECT
+        </mj-button>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text color="#fff" align="center">
+          You have received this email, because you subscribed to Architectstock.
+        </mj-text>
+        <mj-text color="#fff" align="center" padding-top="0">
+          Don't want to hear from us? You can <a href="#" style="color:#fa8d29">unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column background-color="#fa8d29">
+        <mj-text align="center" font-size="24px" font-weight="bold" color="#000"> FOLLOW US </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="youtube" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="twitter" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="instagram" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="linkedin" href="https://mjml.io/"> </mj-social-element>
+          <mj-social-element name="pinterest" href="https://mjml.io/"> </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

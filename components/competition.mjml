@@ -1,0 +1,46 @@
+<mj-section background-color="#fa8d29" padding="10px" border="4px solid #fff">
+  <mj-column width="100%" css-class="d-lg-none">
+    <mj-image src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
+  </mj-column>
+  <mj-column width="100%" css-class="d-lg-none">
+    <mj-divider border-color="#000" border-width="1px" />
+  </mj-column>
+  <mj-column width="40%" padding-top="10px" padding-bottom="10px">
+    <mj-text align="center" font-size="10px" padding="0">
+      INTERNATIONAL ARCHITECTURE COMPETITION
+    </mj-text>
+    <mj-text align="center" padding="5px 0">
+      <span style="font-weight:600"> VILLA DESIGN</span><br />
+      <span>COMPETITION</span>
+    </mj-text>
+    <mj-text align="center" padding="5px 0">
+      <span>SUBMISSION DEADLINE</span><br>
+      <span style="font-weight:600">30 May, 2020</span>
+    </mj-text>
+  </mj-column>
+  <mj-column width="25%" padding-top="10px" padding-bottom="10px">
+    <mj-text align="center" font-size="8px" padding="0">
+      <span style="font-size:24px">&#127941;</span> PRIZE FUND
+    </mj-text>
+    <mj-text align="center" padding="3px 0">
+      <strong>1st</strong> US $1,000
+    </mj-text>
+    <mj-text align="center" padding="3px 0">
+      <strong>2nd</strong> US $500
+    </mj-text>
+    <mj-text align="center" padding="3px 0">
+      <strong>3rs</strong> US $300
+    </mj-text>
+  </mj-column>
+  <mj-column css-class="d-sm-none" width="35%">
+    <mj-image src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
+  </mj-column>
+  <mj-column width="100%" css-class="d-lg-none">
+    <mj-divider border-color="#000" border-width="1px" />
+  </mj-column>
+  <mj-column width="100%">
+    <mj-button padding="5px 0" align="center" inner-padding="7px" background-color="#dedede" border-radius="0" border="solid thin #000" color="#000">
+      REGISTER NOW
+    </mj-button>
+  </mj-column>
+</mj-section>

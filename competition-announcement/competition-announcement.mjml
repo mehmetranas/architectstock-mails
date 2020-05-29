@@ -2,31 +2,15 @@
   <mj-head>
     <mj-preview>Selected Projects</mj-preview>
     <mj-style>
-      .position-relative {
-        position: relative;
-      }
-
-      .villa-design {
-        display: none;
-      }
-
-      @media (min-width:300px) {
-        .villa-design {
-          display: block;
-          position: absolute;
-          top: 30%;
-          left: 40%;
-          width: 50%;
+      @media screen and (min-width:480px) {
+        .d-lg-none {
+          display: none !important;
         }
       }
 
-      @media (min-width:480px) {
-        .villa-design {
-          display: block;
-          position: absolute;
-          top: 10%;
-          left: 25%;
-          width: 65%;
+      @media screen and (max-width:480px) {
+        .d-sm-none {
+          display: none !important;
         }
       }
     </mj-style>
@@ -56,37 +40,38 @@
 
     <!-- Competition -->
     <mj-section padding="4px">
-      <mj-column css-class="position-relative" width="100%" padding="0" background-color="#fa8d29">
-        <mj-text>
+      <mj-column css-class="position-relative" width="100%" padding="0" padding-top="10px" padding-bottom="10px" background-color="#fa8d29">
+        <mj-text align="center">
           INTERNATIONAL ARCHITECTURE COMPETITION
         </mj-text>
-        <mj-text font-size="24px" padding-bottom="0">
+        <mj-text align="center" font-size="24px" padding-bottom="0">
           VILLA DESIGN
         </mj-text>
-        <mj-text font-size="18px" padding-top="0">
+        <mj-text align="center" font-size="18px" padding-top="0">
           COMPETITION
         </mj-text>
-        <mj-text padding-bottom="3px">
+        <mj-text align="center" padding-bottom="3px">
           PRIZE FUND
         </mj-text>
-        <mj-text font-size="18px" padding-top="0" padding-bottom="3px">
+        <mj-text align="center" font-size="18px" padding-top="0" padding-bottom="3px">
           1st US $1,000
         </mj-text>
-        <mj-text font-size="18px" padding-top="0" padding-bottom="3px">
+        <mj-text align="center" font-size="18px" padding-top="0" padding-bottom="3px">
           2nd US $500
         </mj-text>
-        <mj-text font-size="18px" padding-top="0">
+        <mj-text align="center" font-size="18px" padding-top="0">
           3rd US $300
         </mj-text>
-        <mj-text padding-top="0" padding-bottom="0">
+        <mj-text align="center" padding-top="0" padding-bottom="0">
           SUBMISSION DEADLINE
         </mj-text>
-        <mj-text font-size="18px" padding-top="0">
+        <mj-text align="center" font-size="18px" padding-top="0">
           30 May, 2020
         </mj-text>
-        <mj-button background-color="#dedede" color="#000" border="solid thin #000" border-radius="0" align="left">
+        <mj-button align="center" background-color="#dedede" color="#000" border="solid thin #000" border-radius="0" align="left">
           REGISTER NOW
         </mj-button>
+        <mj-divider border-width="1px" border-color="#000" />
         <mj-image css-class="position-absolute villa-design" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="" />
       </mj-column>
     </mj-section>

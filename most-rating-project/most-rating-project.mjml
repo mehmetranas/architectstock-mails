@@ -1,32 +1,16 @@
 <mjml>
   <mj-head>
     <mj-preview>Selected Projects</mj-preview>
-    <mj-style>
-      .position-relative {
-        position: relative;
-      }
-
-      .villa-design {
-        display: none;
-      }
-
-      @media (min-width:300px) {
-        .villa-design {
-          display: block;
-          position: absolute;
-          bottom: 20%;
-          left: 35%;
-          width: 60%;
+   <mj-style>
+      @media screen and (min-width:480px) {
+        .d-lg-none {
+          display: none !important;
         }
       }
 
-      @media (min-width:480px) {
-        .villa-design {
-          display: block;
-          position: absolute;
-          top: 0%;
-          left: 35%;
-          width: 55%;
+      @media screen and (max-width:480px) {
+        .d-sm-none {
+          display: none !important;
         }
       }
     </mj-style>
@@ -219,39 +203,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#fa8d29" padding="10px" border="4px solid #fff">
-      <mj-column width="40%">
-        <mj-text font-size="10px" padding="0">
-          INTERNATIONAL ARCHITECTURE COMPETITION
-        </mj-text>
-        <mj-text padding="5px 0">
-          <span style="font-weight:600"> VILLA DESIGN</span><br />
-          <span>COMPETITION</span>
-        </mj-text>
-        <mj-text padding="5px 0">
-          <span>SUBMISSION DEADLINE</span><br>
-          <span style="font-weight:600">30 May, 2020</span>
-        </mj-text>
-      </mj-column>
-      <mj-column width="60%" css-class="position-relative">
-        <mj-text font-size="8px" padding="0">
-          <span style="font-size:24px">&#127941;</span> PRIZE FUND
-        </mj-text>
-        <mj-text padding="3px 0">
-          <strong>1st</strong> US $1,000
-        </mj-text>
-        <mj-text padding="3px 0">
-          <strong>2nd</strong> US $500
-        </mj-text>
-        <mj-text padding="3px 0">
-          <strong>3rs</strong> US $300
-        </mj-text>
-        <mj-button padding="5px 0" align="left" inner-padding="7px" background-color="#dedede" border-radius="0" border="solid thin #000" color="#000">
-          REGISTER NOW
-        </mj-button>
-        <mj-image padding="0" css-class="villa-design" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/545151_526257/villa-design.png" alt="Villa" />
-      </mj-column>
-    </mj-section>
+<mj-include path="../components/competition.mjml" />
 
     <mj-section padding="4px" background-color="#000" border="5px solid #fff">
       <mj-column width="100%">
